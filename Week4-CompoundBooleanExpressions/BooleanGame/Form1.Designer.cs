@@ -29,6 +29,7 @@ namespace BooleanGame
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -43,6 +44,8 @@ namespace BooleanGame
             this.panel2 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -101,6 +104,7 @@ namespace BooleanGame
             this.checkBox2.TabIndex = 4;
             this.checkBox2.Text = "Timer";
             this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 
             // checkBox3
             // 
@@ -164,7 +168,6 @@ namespace BooleanGame
             this.button4.Size = new System.Drawing.Size(138, 48);
             this.button4.TabIndex = 9;
             this.button4.UseVisualStyleBackColor = false;
-            this.button4.MouseHover += new System.EventHandler(this.button4_MouseHover);
             // 
             // panel2
             // 
@@ -186,7 +189,6 @@ namespace BooleanGame
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(0, 20);
             this.label3.TabIndex = 1;
-            this.label3.TextChanged += new System.EventHandler(this.label3_TextChanged);
             // 
             // button5
             // 
@@ -196,8 +198,21 @@ namespace BooleanGame
             this.button5.Size = new System.Drawing.Size(32, 38);
             this.button5.TabIndex = 0;
             this.button5.UseVisualStyleBackColor = true;
-            this.button5.TextChanged += new System.EventHandler(this.button5_TextChanged);
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // timer1
+            // 
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // textBox1
+            // 
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Tai Le", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(89, 479);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(243, 35);
+            this.textBox1.TabIndex = 11;
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Form1
             // 
@@ -205,6 +220,7 @@ namespace BooleanGame
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(418, 533);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.panel1);
@@ -218,7 +234,6 @@ namespace BooleanGame
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.MouseHover += new System.EventHandler(this.button4_MouseHover);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -244,6 +259,8 @@ namespace BooleanGame
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
