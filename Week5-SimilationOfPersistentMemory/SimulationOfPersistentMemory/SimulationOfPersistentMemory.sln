@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimulationOfPersistentMemory", "SimulationOfPersistentMemory.csproj", "{B15F79F8-7920-4F07-993A-116DDF2E513E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B15F79F8-7920-4F07-993A-116DDF2E513E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B15F79F8-7920-4F07-993A-116DDF2E513E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B15F79F8-7920-4F07-993A-116DDF2E513E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B15F79F8-7920-4F07-993A-116DDF2E513E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD5B5741-2802-480B-ABDB-5DBF8E077C13}
+	EndGlobalSection
+EndGlobal

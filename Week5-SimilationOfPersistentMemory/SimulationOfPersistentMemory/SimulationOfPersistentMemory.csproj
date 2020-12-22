@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D26D0829-8984-49D2-ACF7-0D571D7E90F8}</ProjectGuid>
+    <ProjectGuid>{B15F79F8-7920-4F07-993A-116DDF2E513E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CSC120</RootNamespace>
-    <AssemblyName>CSC120</AssemblyName>
+    <RootNamespace>SimulationOfPersistentMemory</RootNamespace>
+    <AssemblyName>SimulationOfPersistentMemory</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,6 +45,9 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Storage.cs" />
+    <Compile Include="TruthTable.cs" />
+    <Compile Include="Utility.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

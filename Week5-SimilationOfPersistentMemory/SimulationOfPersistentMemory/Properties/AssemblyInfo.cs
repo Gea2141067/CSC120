@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("CSC120")]
+[assembly: AssemblyTitle("SimulationOfPersistentMemory")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("CSC120")]
+[assembly: AssemblyProduct("SimulationOfPersistentMemory")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("d26d0829-8984-49d2-acf7-0d571d7e90f8")]
+[assembly: Guid("b15f79f8-7920-4f07-993a-116ddf2e513e")]
 
 // Version information for an assembly consists of the following four values:
 //
